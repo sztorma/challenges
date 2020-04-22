@@ -1,9 +1,7 @@
-
 package challenges.codingbat.warmup1;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-
 
 public class SleepInTest {
 
@@ -16,5 +14,5 @@ public class SleepInTest {
         assertEquals(false, instance.sleepIn(true, false));
         assertEquals(true, instance.sleepIn(false, false));
     }
-    
+
 }
